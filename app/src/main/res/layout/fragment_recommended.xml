@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 输入框，用于输入网址 -->
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入网址"
+        android:text="www.hznu.edu.cn"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <!-- 按钮，点击生成二维码 -->
+        <Button
+            android:id="@+id/generateQRCodeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生成二维码"/>
+
+        <!-- 用于显示二维码的ImageView -->
+        <ImageView
+            android:id="@+id/qrcodeImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <!-- "每日一图"按钮 -->
+    <Button
+        android:id="@+id/dailyImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日一图"/>
+
+    <!-- 用于显示每日一图的ImageView -->
+    <ImageView
+        android:id="@+id/dailyImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="4dp"/>
+
+    <!-- 显示每日一图描述的TextView -->
+    <TextView
+        android:id="@+id/dailyImageDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"/>
+
+</LinearLayout>

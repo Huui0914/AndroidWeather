@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:key="change_username"
+        app:title="修改用户名"
+        app:summary="点击修改您的用户名"
+        app:icon="@drawable/ic_exit_username"/>
+
+    <Preference
+        app:key="change_password"
+        app:title="修改密码"
+        app:summary="点击修改您的密码"
+        app:icon="@drawable/ic_exit_userpwd"/>
+
+    <!-- 选择默认城市 -->
+    <Preference
+        app:key="default_city"
+        app:title="选择默认城市"
+        app:summary="请选择默认城市"
+        app:icon="@drawable/default_city"/>
+
+
+    <!-- 添加感兴趣的城市 -->
+    <Preference
+        app:key="interested_cities"
+        app:title="添加感兴趣的城市"
+        app:summary="选择您感兴趣的城市"
+        app:icon="@drawable/default_interest"/>
+
+    <!-- 浏览记录数量设置 -->
+    <EditTextPreference
+        app:key="history_city_limit"
+        app:title="历史城市记录限制"
+        app:summary="设置历史页面显示的城市记录数量 (最多 10 个)"
+        app:dialogTitle="输入城市记录数量"
+        app:icon="@drawable/history_data"/>
+
+    <!-- 自动登录 -->
+    <SwitchPreferenceCompat
+        app:key="auto_login"
+        app:title="自动登录"
+        app:summary="启用后，应用启动时将自动登录您的账户"
+        app:defaultValue="false"
+        app:icon="@drawable/auto_login"/>
+
+    <!-- 注销 -->
+    <Preference
+        app:key="logout"
+        app:title="注销"
+        app:summary="点击退出当前账号"
+        app:icon="@drawable/lay_out"/>
+</PreferenceScreen>
+
+
+

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application Weather</string>
+    <string-array name="city_names">
+        <item>北京</item>
+        <item>杭州</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+
+    <string-array name="city_values">
+        <item>Beijing</item>
+        <item>Hangzhou</item>
+        <item>Shanghai</item>
+        <item>Guangzhou</item>
+        <item>Shenzhen</item>
+    </string-array>
+</resources>
